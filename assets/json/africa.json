@@ -1,0 +1,214 @@
+[
+    {
+      "capital": "Argel",
+      "country": "Argelia"
+    },
+    {
+      "capital": "Luanda",
+      "country": "Angola"
+    },
+    {
+      "capital": "Porto-Novo",
+      "country": "Benín"
+    },
+    {
+      "capital": "Gaborone",
+      "country": "Botsuana"
+    },
+    {
+      "capital": "Uagadugú",
+      "country": "Burkina Faso"
+    },
+    {
+      "capital": "Buyumbura",
+      "country": "Burundi"
+    },
+    {
+      "capital": "Yaundé",
+      "country": "Camerún"
+    },
+    {
+      "capital": "Praia",
+      "country": "Cabo Verde"
+    },
+    {
+      "capital": "Bangui",
+      "country": "República Centroafricana"
+    },
+    {
+      "capital": "Yamena",
+      "country": "Chad"
+    },
+    {
+      "capital": "Moroni",
+      "country": "Comores"
+    },
+    {
+      "capital": "Kinshasa",
+      "country": "República Democrática del Congo"
+    },
+    {
+      "capital": "Yibuti",
+      "country": "Yibuti"
+    },
+    {
+      "capital": "El Cairo",
+      "country": "Egipto"
+    },
+    {
+      "capital": "Malabo",
+      "country": "Guinea Ecuatorial"
+    },
+    {
+      "capital": "Asmara",
+      "country": "Eritrea"
+    },
+    {
+      "capital": "Addis Abeba",
+      "country": "Etiopía"
+    },
+    {
+      "capital": "Libreville",
+      "country": "Gabon"
+    },
+    {
+      "capital": "Banjul",
+      "country": "Gambia"
+    },
+    {
+      "capital": "Accra",
+      "country": "Ghana"
+    },
+    {
+      "capital": "Conakry",
+      "country": "Guinea"
+    },
+    {
+      "capital": "Bissau",
+      "country": "Guinea-Bissau"
+    },
+    {
+      "capital": "Yamusukro",
+      "country": "Costa de Marfil"
+    },
+    {
+      "capital": "Nairobi",
+      "country": "Kenya"
+    },
+    {
+      "capital": "Maseru",
+      "country": "Lesoto"
+    },
+    {
+      "capital": "Monrovia",
+      "country": "Liberia"
+    },
+    {
+      "capital": "Tripoli",
+      "country": "Libia"
+    },
+    {
+      "capital": "Antananarivo",
+      "country": "Madagascar"
+    },
+    {
+      "capital": "Lilongüe",
+      "country": "Malawu"
+    },
+    {
+      "capital": "Bamako",
+      "country": "Mali"
+    },
+    {
+      "capital": "Nuakchot",
+      "country": "Mauritania"
+    },
+    {
+      "capital": "Port Louis",
+      "country": "Mauricio"
+    },
+    {
+      "capital": "Rabat",
+      "country": "Marruecos"
+    },
+    {
+      "capital": "Maputo",
+      "country": "Mozambique"
+    },
+    {
+      "capital": "Windhoek",
+      "country": "Namibia"
+    },
+    {
+      "capital": "Niamey",
+      "country": "Níger"
+    },
+    {
+      "capital": "Abuya",
+      "country": "Nigeria"
+    },
+    {
+      "capital": "Brazzaville",
+      "country": "República del Congo"
+    },
+    {
+      "capital": "Kigali",
+      "country": "Ruanda"
+    },
+    {
+      "capital": "Santo Tomé",
+      "country": "Santo Tomé y Príncipe"
+    },
+    {
+      "capital": "Dakar",
+      "country": "Senegal"
+    },
+    {
+      "capital": "Victoria",
+      "country": "Seychelles"
+    },
+    {
+      "capital": "Freetown",
+      "country": "Sierra Leona"
+    },
+    {
+      "capital": "Mogadiscio",
+      "country": "Somalia"
+    },
+    {
+      "capital": "Pretoria",
+      "country": "Sudáfrica"
+    },
+    {
+      "capital": "Jartum",
+      "country": "Sudán"
+    },
+    {
+      "capital": "Lobamba",
+      "country": "Suazilandia"
+    },
+    {
+      "capital": "Dar el Salam",
+      "country": "Tanzania"
+    },
+    {
+      "capital": "Lomé",
+      "country": "Togo"
+    },
+    {
+      "capital": "Túnez",
+      "country": "Túnez"
+    },
+    {
+      "capital": "Kampala",
+      "country": "Uganda"
+    },
+    {
+      "capital": "Lusaka",
+      "country": "Zambia"
+    },
+    {
+      "capital": "Hara",
+      "country": "Zimbabwe"
+    }
+  ]

@@ -1,0 +1,58 @@
+[
+    {
+      "capital": "Canberra",
+      "country": "Australia"
+    },
+    {
+      "capital": "Suva",
+      "country": "Fiji"
+    },
+    {
+      "capital": "Majuro",
+      "country": "Islas Marshall"
+    },
+    {
+      "capital": "Palikir",
+      "country": "Micronesia"
+    },
+    {
+      "capital": "Yaren",
+      "country": "Nauru"
+    },
+    {
+      "capital": "Noumea",
+      "country": "Nueva Caledonia"
+    },
+    {
+      "capital": "Wellington",
+      "country": "Nueva Zelanda"
+    },
+    {
+      "capital": "Ngerulmud",
+      "country": "Palaos"
+    },
+    {
+      "capital": "Puerto Moresby",
+      "country": "Papua Nueva Guinea"
+    },
+    {
+      "capital": "Apia",
+      "country": "Samoa"
+    },
+    {
+      "capital": "Honiara",
+      "country": "Islas Salomón"
+    },
+    {
+      "capital": "Nukualofa",
+      "country": "Tonga"
+    },
+    {
+      "capital": "Funafuti",
+      "country": "Tuvalu"
+    },
+    {
+      "capital": "Port Vila",
+      "country": "Vanuatu"
+    }
+  ]

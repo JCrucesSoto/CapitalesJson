@@ -1,0 +1,139 @@
+[
+
+    {
+      "capital": "Saint John",
+      "country": "Antigua y Barbuda"
+    },
+    {
+      "capital": "Nasáu",
+      "country": "Bahamas"
+    },
+    {
+      "capital": "Bridgetown",
+      "country": "Barbados"
+    },
+    {
+      "capital": "Belmopán",
+      "country": "Belice"
+    },
+    {
+      "capital": "Ottawa",
+      "country": "Canadá"
+    },
+    {
+      "capital": "San José",
+      "country": "Costa Rica"
+    },
+    {
+      "capital": "La Havana",
+      "country": "Cuba"
+    },
+    {
+      "capital": "Roseau",
+      "country": "Dominica"
+    },
+    {
+      "capital": "Santo Domingo",
+      "country": "República Dominicana"
+    },
+    {
+      "capital": "San Salvador",
+      "country": "El Salvador"
+    },
+    {
+      "capital": "Saint George",
+      "country": "Granada"
+    },
+    {
+      "capital": "Ciudad de Guatemala",
+      "country": "Guatemala"
+    },
+    {
+      "capital": "Puerto Príncipe",
+      "country": "Haití"
+    },
+    {
+      "capital": "Tegucigalpa",
+      "country": "Honduras"
+    },
+    {
+      "capital": "Kingston",
+      "country": "Jamaica"
+    },
+    {
+      "capital": "Mexico DF.",
+      "country": "Mexico"
+    },
+    {
+      "capital": "Managua",
+      "country": "Nicaragua"
+    },
+    {
+      "capital": "Panamá",
+      "country": "Panamá"
+    },
+    {
+      "capital": "Castries",
+      "country": "Santa Lucia"
+    },
+    {
+      "capital": "Kingstown",
+      "country": "San Vicente y las Granadinas"
+    },
+    {
+      "capital": "Puerto España",
+      "country": "Trinidad y Tobago"
+    },
+    {
+      "capital": "Washington DC.",
+      "country": "Estados Unidos"
+    },
+    {
+        "capital": "Buenos Aires",
+        "country": "Argentina"
+      },
+      {
+        "capital": "Sucre",
+        "country": "Bolivia"
+      },
+      {
+        "capital": "Brasilia",
+        "country": "Brasil"
+      },
+      {
+        "capital": "Santiago de Chile",
+        "country": "Chile"
+      },
+      {
+        "capital": "Bogotá",
+        "country": "Colombia"
+      },
+      {
+        "capital": "Quito",
+        "country": "Ecuador"
+      },
+      {
+        "capital": "Georgetown",
+        "country": "Guyana"
+      },
+      {
+        "capital": "Asunción",
+        "country": "Paraguay"
+      },
+      {
+        "capital": "Lima",
+        "country": "Peru"
+      },
+      {
+        "capital": "Parabarimo",
+        "country": "Surinam"
+      },
+      {
+        "capital": "Montevideo",
+        "country": "Uruguay"
+      },
+      {
+        "capital": "Caracas",
+        "country": "Venezuela"
+      }
+  ]
