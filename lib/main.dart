@@ -1,13 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:capi_json/views/home.dart';
+import 'package:flutter/material.dart';
 
 //Página main dedicada a la configuración y arranque de la app
-
 
 void main() {
   runApp(const MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -17,11 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Capitales del mundo',
-        theme: ThemeData( //Configuración del tema
-          primarySwatch: buildMaterialColor(const Color(0xFF40B861)), //color primario
+        theme: ThemeData(
+          //Configuración del tema
+          primarySwatch: buildMaterialColor(const Color(0xff9381ff)),
+          //color primario
           textTheme: TextTheme(
-            headline1: TextStyle( //declaración de diferentes estilos de fuente
-              color: Colors.white,
+            headline1: TextStyle(
+              //declaración de diferentes estilos de fuente
+              color: Color(0xfff8f7ff),
               fontSize: 30,
               fontWeight: FontWeight.w500,
               shadows: [
@@ -36,14 +37,15 @@ class MyApp extends StatelessWidget {
               color: Colors.purple.shade50,
               fontSize: 20,
             ),
-            bodyText1: TextStyle(
-              color: Colors.purple.shade50,
+            bodyText1: const TextStyle(
+              color: Color(0xff000000),
               fontSize: 18,
             ),
           ),
-          cardTheme: CardTheme(  // configuración de la tarjeta de preguntas
+          cardTheme: CardTheme(
+            // configuración de la tarjeta de preguntas
             elevation: 6,
-            color: Colors.green,
+            color: Color(0xffb8b8ff),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),
@@ -56,7 +58,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-MaterialColor buildMaterialColor(Color color) {  // Creación de color principal personalizado
+MaterialColor buildMaterialColor(Color color) {
+  // Creación de color principal personalizado
   List strengths = <double>[.05];
   Map<int, Color> swatch = {};
   final int r = color.red, g = color.green, b = color.blue;

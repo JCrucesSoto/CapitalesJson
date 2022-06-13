@@ -24,6 +24,7 @@ class ResultsView extends StatelessWidget {
               margin:
                   const EdgeInsets.only(left: 3, right: 3, top: 2, bottom: 10),
               decoration: BoxDecoration(
+                color: Color(0xffb8b8ff),
                 border: Border.all(
                   color: Colors.indigo.shade50,
                   width: 1,
@@ -50,12 +51,12 @@ class ResultsView extends StatelessWidget {
                   itemBuilder: (_, index) {
                     return Card(
                       color: quiz.questions[index].correct
-                          ? Colors.green.shade200 // si son correctas con fondo verde
-                          : Colors.red.shade200, // si no con fondo rojo
+                          ? Color(0xffcef6c3) // si son correctas con fondo verde
+                          : Color(0xfffccdcd), // si no con fondo rojo
                       child: ListTile(
                         leading: quiz.questions[index].correct
-                            ? Icon(Icons.check, color: Colors.green.shade900) // añadimos iconos para facilitar la comprensión
-                            : Icon(Icons.close, color: Colors.red.shade900),
+                            ? Icon(Icons.check, color: Color(0xff00ba0d)) // añadimos iconos para facilitar la comprensión
+                            : Icon(Icons.close, color: Color(0xffff0000)),
                         title: Text(quiz.questions[index].question),
                         subtitle: Text(quiz.questions[index].selected),
                         trailing: Text(quiz.questions[index].answer),

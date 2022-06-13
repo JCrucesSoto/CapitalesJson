@@ -94,8 +94,12 @@ class _QuizViewState extends State<QuizView> {
   Widget _buildResultDialog(BuildContext context) {
     // este método genera el cuadro de diálogo que nos informa del resultado, para luego mandarnos a la pantalla de detalle
     return AlertDialog(
-      title: Text('Resultados', style: Theme.of(context).textTheme.headline1),
-      backgroundColor: Theme.of(context).primaryColorDark,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      title: Text('RESULTADO', style: Theme.of(context).textTheme.headline1),
+      backgroundColor: Color(0xffb8b8ff),
+
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,9 +134,10 @@ class _QuizViewState extends State<QuizView> {
                       ))),
             );
           },
-          child: Text(
+          child: const Text(
             'Ver Respuestas',
-            style: Theme.of(context).textTheme.bodyText1,
+
+            style: TextStyle(color: Color(0xFFEC5B54)),
           ),
         ),
       ],
@@ -144,10 +149,10 @@ class _QuizViewState extends State<QuizView> {
     // Y aquí comienza la elaboración de la pantalla
 
     return Scaffold(
-      backgroundColor: buildMaterialColor(const Color(0xFF40B861)),
+      backgroundColor: buildMaterialColor(const Color(0xff9381ff)),
       appBar: AppBar(
         title: Text(quiz.name),
-        backgroundColor: buildMaterialColor(const Color(0xFF40B861)),
+        backgroundColor: buildMaterialColor(const Color(0xff9381ff)),
         elevation: 0,
       ),
       body: Column(
@@ -160,7 +165,7 @@ class _QuizViewState extends State<QuizView> {
               child: LinearProgressIndicator(
                 // este widget nos muestra una barra rellenable
 
-                color: const Color(0xFFFF5D57),
+                color: const Color(0xFFFC8D88),
                 value: progressIndex / totalQuestions,
                 minHeight: 20,
               ),
@@ -192,11 +197,13 @@ class _QuizViewState extends State<QuizView> {
                                   margin: const EdgeInsets.all(3),
                                   decoration: BoxDecoration(
                                     border: Border.all(
-                                        color: Colors.indigo.shade100,
+                                        color: Color(0xffefd3d7),
                                         width: 2),
                                     borderRadius: BorderRadius.circular(15),
+
                                   ),
                                   child: ListTile(
+                                    tileColor: Color(0xffffd8be),
                                     shape: const RoundedRectangleBorder(
                                       borderRadius: BorderRadius.all(
                                         Radius.circular(15),

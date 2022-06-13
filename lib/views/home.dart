@@ -19,55 +19,62 @@ class Home extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
+            Container(
+              //nombre aplicación
+              height: 50,
+              margin: const EdgeInsets.only(top: 10, bottom: 25),
+              decoration: BoxDecoration(
+                  color: const Color(0xFF5D57),
+                  borderRadius: BorderRadius.circular(5)),
+              child: Center(
+                  child: RichText(
+                text: const TextSpan(
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'CAPITALES',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 33,
+                            color: Colors.black54)),
+                    TextSpan(
+                        text: ' DEL MUNDO',
+                        style: TextStyle(
+                            fontSize: 33,
+                            fontWeight: FontWeight.w600, color: Color(
+                            0xFFEC5B54))),
+                  ],
+                ),
+              )),
+            ), //aquí comienza la lista de opciones
+
             Expanded(
               //Esta es la imagen de cabecera
               child: Image.asset('assets/images/World.png'),
             ),
             Card(
               //aquí el menu principal en formato de tarjeta
-              margin: const EdgeInsets.all(20),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12)),
-              color: Theme.of(context).primaryColorLight,
+              margin: const EdgeInsets.only(top: 10.0),
+              color: Color(0xff9381ff),
+              elevation: 0,
               child: ListView(
                 shrinkWrap: true,
                 padding: const EdgeInsets.all(10),
                 children: [
-                  Container(
-                    //nombre aplicación
-                    height: 50,
-                    margin: const EdgeInsets.only(top: 10, bottom: 25),
-                    decoration: BoxDecoration(
-                        border: Border.all(color: Colors.black),
-                        color: const Color(0xFFFF5D57),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: const Center(
-                      child: Text(
-                        'CAPITALES DEL MUNDO',
-                        style: TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 20,
-                        ),
-                      ),
-                    ),
-                  ), //aquí comienza la lista de opciones
-
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Column(
                         children: [
-                          button(context, 'europa', 'Europa'),
-                          button(context, 'asia', 'Asia'),
-                          button(context, 'america', 'América'),
-
+                          button(context, 'europa', 'EUROPA'),
+                          button(context, 'asia', 'ASIA'),
+                          button(context, 'america', 'AMÉRICA'),
                         ],
                       ),
                       Column(
                         children: [
-                          button(context, 'africa', 'África'),
-                          button(context, 'oceania', 'Oceanía'),
-                          button(context, 'mundo', 'El mundo'),
+                          button(context, 'africa', 'ÁFRICA'),
+                          button(context, 'oceania', 'OCEANÍA'),
+                          button(context, 'mundo', 'EL MUNDO'),
                         ],
                       )
                     ],
@@ -83,12 +90,15 @@ class Home extends StatelessWidget {
                         );
                       },
                       style: OutlinedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(6),
+                        ),
                         primary: Colors.black,
-                        backgroundColor: Theme.of(context).primaryColorLight,
+                        backgroundColor: Color(0xffffd8be),
                         elevation: 4,
-                        side: const BorderSide(width: 1),
+                        side: const BorderSide(width: 0),
                       ),
-                      child: const Text('Repasar'),
+                      child: const Text('REPASAR'),
                     ),
                   ),
                 ],
@@ -112,12 +122,22 @@ class Home extends StatelessWidget {
           ),
         );
       },
-      style: OutlinedButton.styleFrom(
-        fixedSize: const Size(150, 50),
-        primary: Colors.black,
-        backgroundColor: Theme.of(context).primaryColorLight,
+      style: ElevatedButton.styleFrom(
+        primary: Color(0xffffeedd),
+        onPrimary: Color(0xff000000),
+        textStyle: const TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 17,
+          letterSpacing: 2.0,
+        ),
+        shadowColor: Color(-15727247),
         elevation: 4,
-        side: const BorderSide(width: 1),
+        minimumSize: Size(190, 44),
+        maximumSize: Size(1344, 90),
+        alignment: FractionalOffset.center,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(6),
+        ),
       ),
       child: Text(nom),
     );
