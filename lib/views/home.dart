@@ -21,30 +21,30 @@ class Home extends StatelessWidget {
           children: [
             Container(
               //nombre aplicación
-              height: 50,
-              margin: const EdgeInsets.only(top: 10, bottom: 25),
               decoration: BoxDecoration(
-                  color: const Color(0xFF5D57),
+                  color: const Color(0x00ff5d57),
                   borderRadius: BorderRadius.circular(5)),
               child: Center(
-                  child: RichText(
-                text: const TextSpan(
-                  children: <TextSpan>[
-                    TextSpan(
-                        text: 'CAPITALES',
-                        style: TextStyle(
-                            fontWeight: FontWeight.w600,
-                            fontSize: 33,
-                            color: Colors.black54)),
-                    TextSpan(
-                        text: ' DEL MUNDO',
-                        style: TextStyle(
-                            fontSize: 33,
-                            fontWeight: FontWeight.w600, color: Color(
-                            0xFFEC5B54))),
-                  ],
-                ),
-              )),
+                  child: FittedBox(
+                    child: RichText(
+                                  text: const TextSpan(
+                    children: <TextSpan>[
+                      TextSpan(
+                          text: 'CAPITALES',
+                          style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 33,
+                              color: Colors.black54)),
+                      TextSpan(
+                          text: ' DEL MUNDO',
+                          style: TextStyle(
+                              fontSize: 33,
+                              fontWeight: FontWeight.w600, color: Color(
+                              0xFFEC5B54))),
+                    ],
+                                  ),
+                                ),
+                  )),
             ), //aquí comienza la lista de opciones
 
             Expanded(
@@ -54,14 +54,14 @@ class Home extends StatelessWidget {
             Card(
               //aquí el menu principal en formato de tarjeta
               margin: const EdgeInsets.only(top: 10.0),
-              color: Color(0xff9381ff),
+              color: const Color(0xff9381ff),
               elevation: 0,
               child: ListView(
                 shrinkWrap: true,
                 padding: const EdgeInsets.all(10),
                 children: [
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Column(
                         children: [
@@ -94,7 +94,7 @@ class Home extends StatelessWidget {
                           borderRadius: BorderRadius.circular(6),
                         ),
                         primary: Colors.black,
-                        backgroundColor: Color(0xffffd8be),
+                        backgroundColor: const Color(0xffffd8be),
                         elevation: 4,
                         side: const BorderSide(width: 0),
                       ),
@@ -110,8 +110,8 @@ class Home extends StatelessWidget {
     );
   }
 
-  OutlinedButton button(BuildContext context, String cont, String nom) {
-    return OutlinedButton(
+  ElevatedButton button(BuildContext context, String cont, String nom) {
+    return ElevatedButton(
       onPressed: () {
         Navigator.push(
           context,
@@ -123,17 +123,16 @@ class Home extends StatelessWidget {
         );
       },
       style: ElevatedButton.styleFrom(
-        primary: Color(0xffffeedd),
-        onPrimary: Color(0xff000000),
+        primary: const Color(0xffffeedd),
+        onPrimary: const Color(0xff000000),
         textStyle: const TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 17,
           letterSpacing: 2.0,
         ),
-        shadowColor: Color(-15727247),
+        shadowColor: const Color(-15727247),
         elevation: 4,
-        minimumSize: Size(190, 44),
-        maximumSize: Size(1344, 90),
+        minimumSize: const Size(150, 44),
         alignment: FractionalOffset.center,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(6),

@@ -52,7 +52,7 @@ class _ReviewView extends State<ReviewView> {
                     width: double.infinity,
 
                     decoration: BoxDecoration(
-                      color: Color(0xffb8b8ff),
+                      color: const Color(0xffb8b8ff),
                       border:
                           Border.all(color: Colors.indigo.shade50, width: 1),
                     ),
@@ -68,7 +68,7 @@ class _ReviewView extends State<ReviewView> {
                         itemCount: quiz.questions.length,
                         itemBuilder: (_, index) {
                           return Card(
-                            color: Color(0xffffd8be) ,
+                            color: const Color(0xffffd8be) ,
                             child: ListTile(
                               leading: Text("${index + 1}"),
                               title: Text(quiz.questions[index].question),

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           textTheme: TextTheme(
             headline1: TextStyle(
               //declaración de diferentes estilos de fuente
-              color: Color(0xfff8f7ff),
+              color: const Color(0xfff8f7ff),
               fontSize: 30,
               fontWeight: FontWeight.w500,
               shadows: [
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
           cardTheme: CardTheme(
             // configuración de la tarjeta de preguntas
             elevation: 6,
-            color: Color(0xffb8b8ff),
+            color: const Color(0xffb8b8ff),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),

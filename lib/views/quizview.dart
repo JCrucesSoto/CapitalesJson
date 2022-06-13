@@ -98,7 +98,7 @@ class _QuizViewState extends State<QuizView> {
         borderRadius: BorderRadius.circular(15.0),
       ),
       title: Text('RESULTADO', style: Theme.of(context).textTheme.headline1),
-      backgroundColor: Color(0xffb8b8ff),
+      backgroundColor: const Color(0xffb8b8ff),
 
       content: Column(
         mainAxisSize: MainAxisSize.min,
@@ -197,13 +197,13 @@ class _QuizViewState extends State<QuizView> {
                                   margin: const EdgeInsets.all(3),
                                   decoration: BoxDecoration(
                                     border: Border.all(
-                                        color: Color(0xffefd3d7),
+                                        color: const Color(0xffefd3d7),
                                         width: 2),
                                     borderRadius: BorderRadius.circular(15),
 
                                   ),
                                   child: ListTile(
-                                    tileColor: Color(0xffffd8be),
+                                    tileColor: const Color(0xffffd8be),
                                     shape: const RoundedRectangleBorder(
                                       borderRadius: BorderRadius.all(
                                         Radius.circular(15),
