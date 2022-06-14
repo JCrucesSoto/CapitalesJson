@@ -1,6 +1,6 @@
 # Capitales del mundo con flutter
 
-Proyecto realizado por Marina Tarín Carballo y Jesús Cruces Soto
+Proyecto realizado por Marina Tarín Carballo y Jesús Cruces Soto.  
 Proyecto Integrado de Desarrollo de Aplicaciones Multiplataforma
 
 ## ¿En qué consiste?
