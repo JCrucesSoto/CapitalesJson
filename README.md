@@ -1,17 +1,7 @@
-# capi_json
+# Capitales del mundo con flutter
 
-A new Flutter project.
+Proyecto realizado por Marina Tarín Carballo y Jesús Cruces Soto
 
-## Getting Started
+## ¿En qué consiste?
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# CapitalesJson
+Desarrollo de una aplicación destinada a cualquier persona de cualquier edad con cualquier preparación que tengan pensado ampliar sus conocimientos o repasar los conceptos en cuanto a capitales del mundo se refiere. La aplicación consta de un test dedicado a cada continente además de un test global. Cada test contiene un resumen al final, con el porcentaje, el resultado total y una ayuda visual de cuáles preguntas se han fallado y cuáles se han acertado. Ofrece también un resumen completo de todas las capitales del mundo para que se puedan repasar antes de enfrentarse al test final.
